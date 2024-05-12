@@ -1,0 +1,89 @@
+/* Style général de la page de connexion */
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+}
+
+
+/* Style du conteneur de connexion */
+
+.login-container {
+    width: 90%;
+    max-width: 400px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+/* Style des titres */
+
+.login-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+/* Style des groupes de formulaire */
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+
+/* Style des champs de saisie et de sélection */
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* S'assure que padding et bordure sont inclus dans la largeur */
+}
+
+
+/* Style du bouton de connexion */
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    /* Vert vif */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #45a049;
+    /* Un vert légèrement plus foncé au survol */
+}
+
+
+/* Responsive design pour les petits écrans */
+
+@media (max-width: 600px) {
+    .login-container {
+        padding: 20px;
+    }
+}
